@@ -1,7 +1,8 @@
 (ns cljds.ch1.data
   (:require [clojure.java.io :as io]
             [incanter.core :as i]
-            [incanter.excel :as xls]))
+            [incanter.excel :as xls]
+            [cljds.ch1.patch]))
 
 (defmulti load-data identity)
 
