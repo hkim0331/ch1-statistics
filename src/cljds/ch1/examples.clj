@@ -90,6 +90,12 @@
                      :nbins 20)
         (i/view))))
 
+(comment
+  (let [xs (->> (repeatedly rand)
+                (take 1000))]
+    (-> (c/histogram xs :nbins 10)
+        (i/view))))
+
 (defn ex-1-16 []
   (let [xs (->> (repeatedly rand)
                 (partition 10)
