@@ -1,6 +1,12 @@
 # ch1-statistics
 
 ## 2022-02-21
+### Added
+- src/cljds/ch1/patch.clj
+  thanks
+  https://github.com/incanter/incanter/issues/393
+
+- git push --set-upstream origin develop
 
 ```
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
